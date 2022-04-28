@@ -1,0 +1,90 @@
+AddType text/html .html .inc
+AddType audio/mpeg .mp3
+AddType audio/ogg .ogg
+
+AddOutputFilter INCLUDES .html .inc
+AddDefaultCharset utf-8
+
+ErrorDocument 404 /index.html
+ErrorDocument 403 /index.html
+
+ExpiresActive on
+ExpiresByType text/css "access plus 1 day"
+ExpiresByType text/javascript "access plus 1 day"
+ExpiresByType application/javascript "access plus 1 day"
+ExpiresByType image/jpeg "access plus 3 months"
+ExpiresByType image/png "access plus 3 months"
+ExpiresByType image/gif "access plus 3 months"
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule "^cgi-bin.*$"						"/" [R=301,L]
+RewriteRule "^.+\.cgi.*$"						"/" [R=301,L]
+RewriteRule "^.+\.php.*$"						"/" [R=301,L]
+RewriteRule "^.+\.pl.*$"						"/" [R=301,L]
+RewriteRule "^.+\.sql.*$"						"/" [R=301,L]
+RewriteRule "^.*wp-admin.*$"					"/" [R=301,L]
+RewriteRule "^.*wp-includes.*$"					"/" [R=301,L]
+RewriteRule "^.*wp-login.*$"					"/" [R=301,L]
+
+RewriteRule "^Іван Котляревський Енеїда$"							"https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/" [R=301,L]
+RewriteRule "^Іван Котляревський Енеїда/$"							"https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/" [R=301,L]
+RewriteRule "^Іван Котляревський Енеїда/(.+)$"						"https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/$1" [R=301,L]
+
+RewriteRule "^Український фольклор Книги/Зачаровані казкою$"					"https://proridne.org/Український фольклор Книги/Петро Лінтур ☼ Зачаровані казкою/" [R=301,L]
+RewriteRule "^Український фольклор Книги/Зачаровані казкою/$"					"https://proridne.org/Український фольклор Книги/Петро Лінтур ☼ Зачаровані казкою/" [R=301,L]
+RewriteRule "^Український фольклор Книги/Зачаровані казкою/index\.html$"		"https://proridne.org/Український фольклор Книги/Петро Лінтур ☼ Зачаровані казкою/" [R=301,L]
+
+RewriteRule "^Українські народні казки про тварин$"					"https://proridne.org/Український фольклор Книги/Іван Березовський ☼ Казки про тварин/" [R=301,L]
+RewriteRule "^Українські народні казки про тварин/$"				"https://proridne.org/Український фольклор Книги/Іван Березовський ☼ Казки про тварин/" [R=301,L]
+RewriteRule "^Українські народні казки про тварин/index\.html$"		"https://proridne.org/Український фольклор Книги/Іван Березовський ☼ Казки про тварин/" [R=301,L]
+
+RewriteRule "^Ірина Кімакович Фольклорний анекдот як жанр$"			"https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/" [R=301,L]
+RewriteRule "^Ірина Кімакович Фольклорний анекдот як жанр/$"		"https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/" [R=301,L]
+RewriteRule "^Ірина Кімакович Фольклорний анекдот як жанр/(.+)$"	"https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/$1" [R=301,L]
+
+
+RewriteRule "^Аудіоказки/Іван Котляревський Енеїда$"				"https://proridne.org/Аудіоказки/Іван Котляревський ☼ Енеїда/" [R=301,L]
+RewriteRule "^Аудіоказки/Іван Котляревський Енеїда/$"				"https://proridne.org/Аудіоказки/Іван Котляревський ☼ Енеїда/" [R=301,L]
+RewriteRule "^Аудіоказки/Іван Котляревський Енеїда/(.+)$"			"https://proridne.org/Аудіоказки/Іван Котляревський ☼ Енеїда/$1" [R=301,L]
+
+RewriteRule "^Аудіоказки/Іван Франко Лис Микита$"					"https://proridne.org/Аудіоказки/Іван Франко ☼ Лис Микита/" [R=301,L]
+RewriteRule "^Аудіоказки/Іван Франко Лис Микита/$"					"https://proridne.org/Аудіоказки/Іван Франко ☼ Лис Микита/" [R=301,L]
+RewriteRule "^Аудіоказки/Іван Франко Лис Микита/(.+)$"				"https://proridne.org/Аудіоказки/Іван Франко ☼ Лис Микита/$1" [R=301,L]
+
+
+RewriteRule "^Українські народні демонологічні розповіді$"			"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^Українські народні демонологічні розповіді/$"			"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^Українські народні демонологічні розповіді/(.+)$"		"https://proridne.org/Українські народні оповідання/$1" [R=301,L]
+
+
+
+
+RewriteRule "^folklore/byliny$"															"https://proridne.org/Українські билини/" [R=301,L]
+RewriteRule "^folklore/byliny/$"														"https://proridne.org/Українські билини/" [R=301,L]
+RewriteRule "^folklore/byliny/(.+)$"													"https://proridne.org/Українські билини/$1" [R=301,L]
+
+RewriteRule "^folklore/legends$"														"https://proridne.org/Українські народні легенди/" [R=301,L]
+RewriteRule "^folklore/legends/$"														"https://proridne.org/Українські народні легенди/" [R=301,L]
+RewriteRule "^folklore/legends/Мати й мачуха\.html$"									"https://proridne.org/Українські народні легенди/Мати-й-мачуха.html" [R=301,L]
+RewriteRule "^folklore/legends/Мати-й мачуха\.html$"									"https://proridne.org/Українські народні легенди/Мати-й-мачуха.html" [R=301,L]
+RewriteRule "^folklore/legends/Відьма та ii діти\.html$"								"https://proridne.org/Українські народні легенди/Відьма та її діти.html" [R=301,L]
+RewriteRule "^folklore/legends/(.+)$"													"https://proridne.org/Українські народні легенди/$1" [R=301,L]
+
+RewriteRule "^folklore/narratives"														"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^folklore/narratives/$"													"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^folklore/narratives/(.+)$"												"https://proridne.org/Українські народні оповідання/$1" [R=301,L]
+
+RewriteRule "^folklore/stories$"														"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^folklore/stories/$"														"https://proridne.org/Українські народні оповідання/" [R=301,L]
+RewriteRule "^folklore/stories/(.+)$"													"https://proridne.org/Українські народні оповідання/$1" [R=301,L]
+
+RewriteRule "^folklore/tales$"															"https://proridne.org/Українські народні казки/" [R=301,L]
+RewriteRule "^folklore/tales/$"															"https://proridne.org/Українські народні казки/" [R=301,L]
+RewriteRule "^folklore/tales/Баба-Яга\.html$"											"https://proridne.org/Українські народні казки/Баба Яга.html" [R=301,L]
+RewriteRule "^folklore/tales/Буде не так, як хочеш, а як Бог дасть\.html$"				"https://proridne.org/Українські народні казки/Буде не так, як хочеш, а як бог дасть.html" [R=301,L]
+RewriteRule "^folklore/tales/Не дай Бог з Івана пана\.html$"							"https://proridne.org/Українські народні казки/Не дай бог з Івана пана.html" [R=301,L]
+RewriteRule "^folklore/tales/Як Бог людей єднав\.html$"									"https://proridne.org/Українські народні казки/Як бог людей єднав.html" [R=301,L]
+RewriteRule "^folklore/tales/Як жаба в Бога дощу просила\.html$"						"https://proridne.org/Українські народні казки/Як жаба в бога дощу просила.html" [R=301,L]
+RewriteRule "^folklore/tales/(.+)$"														"https://proridne.org/Українські народні казки/$1" [R=301,L]
