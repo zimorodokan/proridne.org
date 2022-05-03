@@ -70,14 +70,22 @@
 	.pageHeaderProjectName	{
 		font-family: 'Times New Roman', serif;
 		font-size: 28px;
+		line-height: 40px;
 		white-space: nowrap;
 	}
 	.pageHeaderProjectName__link	{
+		display: block;
 		color: rgb(255,255,255);
+		padding: 0 8px;
 	}
-	.pageHeaderProjectName__link:hover,
-	.pageHeaderProjectName__link:focus	{
-		color: rgb(173, 255, 173);
+	.pageHeaderProjectName__link:focus,
+	.pageHeaderProjectName__link:hover	{
+		background-color: rgb(255,255,255);
+		color: rgb(7, 109, 184);
+		outline-width: 1px;
+		outline-color: rgb(7, 109, 184);
+		outline-style: dashed;
+		outline-offset: -1px;
 	}
 	@media (max-width: 360px)	{
 		.pageHeaderProjectName	{
@@ -93,22 +101,21 @@
 	.pageHeaderProjectMenu__switch	{
 		color: rgb(255,255,255);
 		cursor: pointer;
+		font-size: 24px;
 		height: 40px;
-		padding: 0 0 0 8px;
+		line-height: 40px;
 		position: relative;
-		text-shadow: 0 0 2px rgb(5, 79, 134);
-		width: 28px;
-	}
-	.pageHeaderProjectMenu__switchIcon	{
-		bottom: 0;
-		margin: auto;
-		position: absolute;
-		top: 0;
-		width: 20px;
+		text-align: center;
+		width: 40px;
 	}
 	.pageHeaderProjectMenu__switch:hover,
 	.pageHeaderProjectMenu__switch:focus	{
-		color: rgb(173, 255, 173);
+		background-color: rgb(255,255,255);
+		color: rgb(7, 109, 184);
+		outline-width: 1px;
+		outline-color: rgb(7, 109, 184);
+		outline-style: dashed;
+		outline-offset: -1px;
 	}
 	.pageHeaderProjectMenu__items	{
 		background-color: rgb(214, 235, 252);
@@ -133,6 +140,7 @@
 		font-weight: bold;
 		line-height: 40px;
 		margin: 1px 0 0;
+		outline: none;
 		padding: 0 16px;
 		text-align: center;
 	}
@@ -145,14 +153,18 @@
 		border-bottom: 8px solid rgb(255, 255, 255);
 		border-left: 8px solid transparent;
 		border-right: 8px solid transparent;
-		bottom: 1px;
+		bottom: 0px;
 		content: '';
 		height: 0;
-		left: 8px;
+		left: 0;
 		margin: auto;
 		position: absolute;
 		right: 0;
 		width: 0;
+	}
+	body[data-opened=pageHeaderProjectMenu] .pageHeaderProjectMenu__switch:focus::after,
+	body[data-opened=pageHeaderProjectMenu] .pageHeaderProjectMenu__switch:hover::after	{
+		border-bottom: 8px solid rgb(7, 109, 184);
 	}
 	body[data-opened=pageHeaderProjectMenu] .pageHeaderProjectMenu__items	{
 		display: block;
@@ -172,13 +184,17 @@
 		cursor: pointer;
 		font-size: 16px;
 		line-height: 40px;
-		padding: 0 8px 0 0;
+		padding: 0 8px;
 		position: relative;
-		text-shadow: 0 0 2px rgb(5, 79, 134);
 	}
 	.pageHeaderAlphabetMenu__switch:hover,
 	.pageHeaderAlphabetMenu__switch:focus	{
-		color: rgb(173, 255, 173);
+		background-color: rgb(255,255,255);
+		color: rgb(7, 109, 184);
+		outline-width: 1px;
+		outline-color: rgb(7, 109, 184);
+		outline-style: dashed;
+		outline-offset: -1px;
 	}
 	.pageHeaderAlphabetMenu__items	{
 		background-color: rgb(214, 235, 252);
@@ -202,6 +218,7 @@
 		font-size: 16px;
 		font-weight: bold;
 		line-height: 40px;
+		outline: none;
 	}
 	.pageHeaderAlphabetMenu__item:hover,
 	.pageHeaderAlphabetMenu__item:focus	{
@@ -219,9 +236,14 @@
 		left: 0;
 		margin: auto;
 		position: absolute;
-		right: 8px;
+		right: 0;
 		width: 0;
 	}
+	body[data-opened=pageHeaderAlphabetMenu] .pageHeaderAlphabetMenu__switch:focus::after,
+	body[data-opened=pageHeaderAlphabetMenu] .pageHeaderAlphabetMenu__switch:hover::after	{
+		border-bottom: 8px solid rgb(7, 109, 184);
+	}
+
 /* .pageHeaderAlphabetMenu ——————————————————————————— */
 
 /* .alphabetContent ——————————————————————————— */
@@ -283,7 +305,10 @@
 	.alphabetWorks__workLink:focus,
 	.alphabetWorks__workLink:hover	{
 		color: rgb(0, 138, 0);
-		text-decoration: underline;
+		outline-color: rgb(7, 109, 184);
+		outline-offset: 4px;
+		outline-style: dashed;
+		outline-width: 1px;
 	}
 	.alphabetDictionary	{
 		margin: 16px auto;
@@ -346,7 +371,6 @@
 	.article__author	{
 		font-style: italic;
 		margin: auto 0 auto auto;
-		/* min-width: 300px; */
 		text-align: right;
 		width: 75%;
 	}
@@ -422,8 +446,14 @@
 		padding: 8px 0;
 		text-align: center;
 	}
+	.article__summary:focus,
+	.article__summary:hover	{
+		background-color: rgb(7, 109, 184);
+		border-radius: 8px;
+		color: rgb(255, 255, 255);
+		outline: none;
+	}
 	.audio	{
-		/* color: rgb(7, 109, 184); */
 		margin: 16px auto 32px;
 		text-align: center;
 	}
@@ -456,8 +486,6 @@
 	}
 	.dictionary__itemTerm	{
 		font-weight: bold;
-	}
-	.dictionary__itemDefinition	{
 	}
 	.illustration	{
 		margin: 16px auto;
@@ -499,6 +527,7 @@
 		text-align: center;
 		width: 100%;
 	}
+	.booksCatalogueBook:focus-within,
 	.booksCatalogueBook:hover	{
 		background-color: rgba(7, 109, 184, .15);
 	}
@@ -614,7 +643,10 @@
 	main a:focus,
 	main a:hover	{
 		color: rgb(0, 138, 0);
-		text-decoration: underline;
+		outline-color: rgb(7, 109, 184);
+		outline-offset: 4px;
+		outline-style: dashed;
+		outline-width: 1px;
 	}
 	main img	{
 		max-height: calc(100vh - 72px);
@@ -651,21 +683,6 @@
 	margin: 16px auto;
 	width: 100%;
 }
-/* .googleAdsMainTop	{
-	display: none;
-}
-@media (max-width: 1023px) and (min-height: 640px) {
-	.googleAdsMainTop	{
-		display: block;
-		min-height: 325px;
-		margin: 16px auto;
-	}
-	.googleAdsMainTop .googleAds	{
-		display: block;
-		min-height: 325px;
-		margin: 0 auto;
-	}
-} */
 .leftInfoBlock	{
 	display: none;
 	height: calc(100vh - 40px);
@@ -702,9 +719,7 @@
 		}
 		.booksCatalogueBook	{
 			background-color: rgb(255, 255, 255);
-			/* border-color: transparent rgba(7, 109, 184, .15) rgba(7, 109, 184, .15) transparent; */
 			border-color: rgba(7, 109, 184, .15);
-			/* border-width: 0 2px 2px 0; */
 			border-width: 1px;
 		}
 		@media (min-width: 600px)	{
@@ -755,7 +770,7 @@
 			display: grid;
 			grid-area: header;
 			grid-template-areas: 'pageHeaderProjectMenu pageHeaderProjectName pageHeaderAlphabetMenu';
-			grid-template-columns: 56px 1fr 56px;
+			grid-template-columns: 64px 1fr 64px;
 		}
 		.pageHeaderProjectMenu	{
 			grid-area: pageHeaderProjectMenu;

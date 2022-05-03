@@ -220,10 +220,10 @@ function addEvents() {
 
 
 function click__pageHeaderProjectMenu__switch(event) {
-	if (event.target.classList.contains('pageHeaderProjectMenu__switch')
-		|| event.target.classList.contains('pageHeaderProjectMenu__switchIcon')
-		|| event.target.parentElement.classList.contains('pageHeaderProjectMenu__switchIcon'))
-	{
+	// console.log(`${scriptName} function: click__pageHeaderProjectMenu__switch`);
+	if (event.target.classList
+		&& event.target.classList.contains('pageHeaderProjectMenu__switch')
+	) {
 		if (document.body.dataset.opened === 'pageHeaderProjectMenu') {
 			document.body.dataset.opened = '';
 		}
@@ -235,7 +235,12 @@ function click__pageHeaderProjectMenu__switch(event) {
 
 
 function keydown__pageHeaderProjectMenu__switch(event) {
-	if ((event.key === ' ' || event.key === 'Enter') && event.target.classList.contains('pageHeaderProjectMenu__switch')) {
+	// console.log(`${scriptName} function: keydown__pageHeaderProjectMenu__switch`);
+	if ((event.key === ' ' || event.key === 'Enter')
+		&& event.target.classList
+		&& event.target.classList.contains('pageHeaderProjectMenu__switch')
+	) {
+		event.preventDefault();
 		if (document.body.dataset.opened === 'pageHeaderProjectMenu') {
 			document.body.dataset.opened = '';
 		}
@@ -247,7 +252,10 @@ function keydown__pageHeaderProjectMenu__switch(event) {
 
 
 function click__pageHeaderAlphabetMenu__switch(event) {
-	if (event.target.classList.contains('pageHeaderAlphabetMenu__switch')) {
+	// console.log(`${scriptName} function: click__pageHeaderAlphabetMenu__switch`);
+	if (event.target.classList
+		&& event.target.classList.contains('pageHeaderAlphabetMenu__switch')
+	) {
 		if (document.body.dataset.opened === 'pageHeaderAlphabetMenu') {
 			document.body.dataset.opened = '';
 		}
@@ -259,7 +267,12 @@ function click__pageHeaderAlphabetMenu__switch(event) {
 
 
 function keydown__pageHeaderAlphabetMenu__switch(event) {
-	if ((event.key === ' ' || event.key === 'Enter') && event.target.classList.contains('pageHeaderAlphabetMenu__switch')) {
+	// console.log(`${scriptName} function: keydown__pageHeaderAlphabetMenu__switch`);
+	if ((event.key === ' ' || event.key === 'Enter')
+		&& event.target.classList
+		&& event.target.classList.contains('pageHeaderAlphabetMenu__switch')
+	) {
+		event.preventDefault();
 		if (document.body.dataset.opened === 'pageHeaderAlphabetMenu') {
 			document.body.dataset.opened = '';
 		}
@@ -271,7 +284,10 @@ function keydown__pageHeaderAlphabetMenu__switch(event) {
 
 
 function click__pageHeaderAlphabetMenu__item(event) {
-	if (event.target.classList.contains('pageHeaderAlphabetMenu__item')) {
+	// console.log(`${scriptName} function: click__pageHeaderAlphabetMenu__item`);
+	if (event.target.classList
+		&& event.target.classList.contains('pageHeaderAlphabetMenu__item')
+	) {
 		let letter = event.target.innerText;
 		if (event.target.parentElement.dataset.dataRole === 'files') {
 			showFilesByLetter(letter);
@@ -285,7 +301,12 @@ function click__pageHeaderAlphabetMenu__item(event) {
 
 
 function keydown__pageHeaderAlphabetMenu__item(event) {
-	if ((event.key === ' ' || event.key === 'Enter') && event.target.classList.contains('pageHeaderAlphabetMenu__item')) {
+	// console.log(`${scriptName} function: keydown__pageHeaderAlphabetMenu__item`);
+	if ((event.key === ' ' || event.key === 'Enter')
+		&& event.target.classList
+		&& event.target.classList.contains('pageHeaderAlphabetMenu__item')
+	) {
+		event.preventDefault();
 		let letter = event.target.innerText;
 		if (event.target.parentElement.dataset.dataRole === 'files') {
 			showFilesByLetter(letter);
@@ -299,7 +320,10 @@ function keydown__pageHeaderAlphabetMenu__item(event) {
 
 
 function click__pageHeader__shadow(event) {
-	if (event.target.classList.contains('pageHeader__shadow')) {
+	// console.log(`${scriptName} function: click__pageHeader__shadow`);
+	if (event.target.classList
+		&& event.target.classList.contains('pageHeader__shadow')
+	) {
 		document.body.dataset.opened = '';
 	}
 }
@@ -307,8 +331,9 @@ function click__pageHeader__shadow(event) {
 
 function click__audioFigure(event) {
 	// console.log(`${scriptName} function: click__audioFigure ${[...arguments,]}`);
-	// console.log(event);
-	if (event.target.classList.contains('audio--notActivated')) {
+	if (event.target.classList
+		&& event.target.classList.contains('audio--notActivated')
+	) {
 		event.target.classList.remove('audio--notActivated');
 	}
 }
@@ -316,8 +341,10 @@ function click__audioFigure(event) {
 
 function keydown__audioFigure(event) {
 	// console.log(`${scriptName} function: click__audioFigure ${[...arguments,]}`);
-	// console.log(event);
-	if ((event.key === ' ' || event.key === 'Enter') && event.target.classList.contains('audio--notActivated')) {
+	if ((event.key === ' ' || event.key === 'Enter')
+		&& event.target.classList
+		&& event.target.classList.contains('audio--notActivated')
+	) {
 		event.preventDefault();
 		event.target.classList.remove('audio--notActivated');
 	}
@@ -357,7 +384,7 @@ function createAlphabetMenuOfFiles() {
 		// console.log(alphabetMenuLetters);
 		alphabetMenuLetters.forEach(letter => {
 			e__div.insertAdjacentHTML('beforeend',
-				`<span tabindex="0" role="button" class="pageHeaderAlphabetMenu__item">${letter}</span>`
+				`<button type="button" class="pageHeaderAlphabetMenu__item" tabindex="0">${letter}</button>`
 			);
 		});
 		e__pageHeaderAlphabetMenu.appendChild(e__div);
@@ -367,6 +394,7 @@ function createAlphabetMenuOfFiles() {
 
 
 function showFilesByLetter(letter) {
+	// console.log(`${scriptName} function: showFilesByLetter`);
 	let localData = JSON.parse(localStorage.getItem(pageTypes[pageType].fileWithFilenames));
 	let filenames = localData.data;
 	let e__ul = document.createElement('ul');
@@ -440,7 +468,7 @@ function createAlphabetMenuOfDictionaries() {
 		});
 		alphabetMenuLetters.forEach(letter => {
 			e__div.insertAdjacentHTML('beforeend',
-				`<span tabindex="0" role="button" class="pageHeaderAlphabetMenu__item">${letter}</span>`
+				`<button type="button" class="pageHeaderAlphabetMenu__item" tabindex="0">${letter}</button>`
 			);
 		});
 		e__pageHeaderAlphabetMenu.appendChild(e__div);
@@ -481,9 +509,11 @@ function createListOfRandomLinks() {
 
 	while (randomFilenames.size < 10) {
 		let itemValue = filenames[getRandomInt(filenames.length)];
-		if (typeof itemValue === 'string' && itemValue !== '' && itemValue !== currentPageFileName) {
+		if (typeof itemValue === 'string'
+			&& itemValue !== ''
+			&& itemValue !== currentPageFileName
+		) {
 			randomFilenames.add(itemValue);
-
 		}
 	}
 
@@ -653,6 +683,7 @@ function providePageAdvertizing() {
 
 
 function addEventsForAdvertizing() {
+	// console.log(`${scriptName} function: addEventsForAdvertizing`);
 	document.documentElement.addEventListener('keydown', activatePageAdvertizing);
 	document.documentElement.addEventListener('mousedown', activatePageAdvertizing);
 	document.documentElement.addEventListener('mousemove', activatePageAdvertizing);
@@ -662,6 +693,7 @@ function addEventsForAdvertizing() {
 
 
 function removeEventsForAdvertizing() {
+	// console.log(`${scriptName} function: removeEventsForAdvertizing`);
 	document.documentElement.removeEventListener('keydown', activatePageAdvertizing);
 	document.documentElement.removeEventListener('mousedown', activatePageAdvertizing);
 	document.documentElement.removeEventListener('mousemove', activatePageAdvertizing);
@@ -687,17 +719,8 @@ function providePageAdvertizing__Type_1() {
 }
 
 
-// function provideMainTopAdvertizing() {
-// 	console.log(`${scriptName} function: provideMainTopAdvertizing`);
-// 	const e__googleAdsMainTop = document.querySelector('.googleAdsMainTop');
-// 	if (e__googleAdsMainTop) {
-// 		customPageAdvertizingBlocks += insertAdvertizingBlock(e__googleAdsMainTop, 'afterbegin');
-// 	}
-// }
-
-
 function providePageAdvertizing__Type_2() {
-	console.log(`${scriptName} function: providePageAdvertizing__Type_2`);
+	// console.log(`${scriptName} function: providePageAdvertizing__Type_2`);
 	if (windowWidth < 1024) {
 		provideArticleAdvertizing__Type_2();
 	}
@@ -722,13 +745,13 @@ function provideArticleAdvertizing__Type_1() {
 
 
 function provideArticleAdvertizing__Type_2() {
-	console.log(`${scriptName} function: provideArticleAdvertizing__Type_2`);
+	// console.log(`${scriptName} function: provideArticleAdvertizing__Type_2`);
 	const booksCatalogue = document.querySelector('.booksCatalogue');
 	let childElementCount = booksCatalogue.childElementCount;
 	let startElementIndex = findFirstInvisibleElementIndex(booksCatalogue);
 	if (startElementIndex !== false) {
 		if (windowWidth < 1024) {
-			for (let index = startElementIndex; index < childElementCount; index+=7) {
+			for (let index = startElementIndex; index < childElementCount; index += 7) {
 				customPageAdvertizingBlocks += insertAdvertizingBlock(booksCatalogue.children[index], 'beforebegin');
 				childElementCount += 1;
 			}
@@ -736,13 +759,13 @@ function provideArticleAdvertizing__Type_2() {
 		else if (windowWidth >= 1024) {
 			// const e__main = document.querySelector('main');
 			if (windowWidth >= 1536) {
-				for (let index = startElementIndex; index < childElementCount; index+=10) {
+				for (let index = startElementIndex; index < childElementCount; index += 10) {
 					customPageAdvertizingBlocks += insertAdvertizingBlock(booksCatalogue.children[index], 'beforebegin');
 					childElementCount += 1;
 				}
 			}
 			else {
-				for (let index = startElementIndex; index < childElementCount; index+=7) {
+				for (let index = startElementIndex; index < childElementCount; index += 7) {
 					customPageAdvertizingBlocks += insertAdvertizingBlock(booksCatalogue.children[index], 'beforebegin');
 					childElementCount += 1;
 				}
@@ -880,7 +903,7 @@ function activatePageAdvertizing() {
 
 function activateCustomAdvertizingBlocks(number) {
 	// console.log(`${scriptName} function: activateCustomAdvertizingBlocks`, arguments);
-	console.log('customAdvertizingBlocks', number);
+	// console.log('customAdvertizingBlocks', number);
 	for (let index = 0; index < number; index++) {
 		(adsbygoogle = window.adsbygoogle || []).push({});
 	}
