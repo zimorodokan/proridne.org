@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Іван Котляревський «Енеїда» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Іван Котляревський ☼ Енеїда/" title="Іван Котляревський «Енеїда»">Іван Котляревський ☼ Енеїда</a></div>

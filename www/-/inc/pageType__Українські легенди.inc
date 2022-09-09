@@ -25,4 +25,5 @@
 
 <body data-page-type="Українські легенди">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->

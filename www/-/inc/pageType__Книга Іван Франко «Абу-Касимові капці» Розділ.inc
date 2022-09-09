@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Іван Франко «Абу-Касимові капці» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/" title="Іван Франко «Абу-Касимові капці»">Іван Франко ☼ Абу-Касимові капці</a></div>

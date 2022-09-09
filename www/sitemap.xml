@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
-	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-
-
-
-
-<url><loc>https://proridne.org/index.html</loc></url>
-<url><loc>https://proridne.org/Ukrainian folk tales/index.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://proridne.org/</loc></url>
+<url><loc>https://proridne.org/Ukrainian folk tales/</loc></url>
 <url><loc>https://proridne.org/Ukrainian folk tales/Ivan the fool and st Peter's fife.html</loc></url>
 <url><loc>https://proridne.org/Ukrainian folk tales/Oh the tsar of the forest.html</loc></url>
 <url><loc>https://proridne.org/Ukrainian folk tales/The cat, the cock, and the fox.html</loc></url>
@@ -37,16 +29,16 @@
 <url><loc>https://proridne.org/Ukrainian folk tales/The vampire and st Michael.html</loc></url>
 <url><loc>https://proridne.org/Ukrainian folk tales/The voices at the window.html</loc></url>
 <url><loc>https://proridne.org/Ukrainian folk tales/The wondrous story of Ivan Golik and the Serpents.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Іван Котляревський ☼ Енеїда/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Іван Франко ☼ Абу-Касимові капці/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Іван Франко ☼ Лис Микита/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Олександр Кузьмін ☼ Як лисичка пташкою була/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Сашко Лірник/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Українські народні казки/index.html</loc></url>
-<url><loc>https://proridne.org/Аудіоказки/Юхим Чеповецький ☼ Мишенятко Мицик/index.html</loc></url>
-<url><loc>https://proridne.org/Словник діалектних та маловживаних слів/index.html</loc></url>
-<url><loc>https://proridne.org/Українські билини/index.html</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Іван Котляревський ☼ Енеїда/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Іван Франко ☼ Абу-Касимові капці/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Іван Франко ☼ Лис Микита/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Олександр Кузьмін ☼ Як лисичка пташкою була/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Сашко Лірник/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Українські народні казки/</loc></url>
+<url><loc>https://proridne.org/Аудіоказки/Юхим Чеповецький ☼ Мишенятко Мицик/</loc></url>
+<url><loc>https://proridne.org/Словник діалектних та маловживаних слів/</loc></url>
+<url><loc>https://proridne.org/Українські билини/</loc></url>
 <url><loc>https://proridne.org/Українські билини/Єруслан Лазаревич.html</loc></url>
 <url><loc>https://proridne.org/Українські билини/Іван Білокрис.html</loc></url>
 <url><loc>https://proridne.org/Українські билини/Іван Вечірній, Іван Північний та Іван Зорьовий.html</loc></url>
@@ -92,7 +84,7 @@
 <url><loc>https://proridne.org/Українські билини/Сто сімдесят і один богатир.html</loc></url>
 <url><loc>https://proridne.org/Українські билини/Три поїздки Іллі Муромця.html</loc></url>
 <url><loc>https://proridne.org/Українські билини/Чурило Полонкович.html</loc></url>
-<url><loc>https://proridne.org/Українські народні казки/index.html</loc></url>
+<url><loc>https://proridne.org/Українські народні казки/</loc></url>
 <url><loc>https://proridne.org/Українські народні казки/Євгена.html</loc></url>
 <url><loc>https://proridne.org/Українські народні казки/Єруслан Лазаревич.html</loc></url>
 <url><loc>https://proridne.org/Українські народні казки/І вишнева кісточка може стати в пригоді.html</loc></url>
@@ -4339,7 +4331,7 @@
 <url><loc>https://proridne.org/Українські народні казки/Ястріб і перепелиця.html</loc></url>
 <url><loc>https://proridne.org/Українські народні казки/Ятлик-кум і лисиця-кума.html</loc></url>
 <url><loc>https://proridne.org/Українські народні казки/Ґава-ледарка.html</loc></url>
-<url><loc>https://proridne.org/Українські народні легенди/index.html</loc></url>
+<url><loc>https://proridne.org/Українські народні легенди/</loc></url>
 <url><loc>https://proridne.org/Українські народні легенди/І пішов дощ.html</loc></url>
 <url><loc>https://proridne.org/Українські народні легенди/І у золота сльози ллються.html</loc></url>
 <url><loc>https://proridne.org/Українські народні легенди/І я там був, мед-пиво пив.html</loc></url>
@@ -5077,7 +5069,7 @@
 <url><loc>https://proridne.org/Українські народні легенди/Якби не тоя.html</loc></url>
 <url><loc>https://proridne.org/Українські народні легенди/Янок.html</loc></url>
 <url><loc>https://proridne.org/Українські народні легенди/Ятрань.html</loc></url>
-<url><loc>https://proridne.org/Українські народні оповідання/index.html</loc></url>
+<url><loc>https://proridne.org/Українські народні оповідання/</loc></url>
 <url><loc>https://proridne.org/Українські народні оповідання/І вовк може боятися.html</loc></url>
 <url><loc>https://proridne.org/Українські народні оповідання/І заможні працювали.html</loc></url>
 <url><loc>https://proridne.org/Українські народні оповідання/Іван і русалка.html</loc></url>
@@ -5701,7 +5693,7 @@
 <url><loc>https://proridne.org/Українські народні оповідання/Якби не той лук-часник.html</loc></url>
 <url><loc>https://proridne.org/Українські народні оповідання/Яке село.html</loc></url>
 <url><loc>https://proridne.org/Українські народні оповідання/Ясновидиця.html</loc></url>
-<url><loc>https://proridne.org/Українська міфологія/index.html</loc></url>
+<url><loc>https://proridne.org/Українська міфологія/</loc></url>
 <url><loc>https://proridne.org/Українська міфологія/Євшан-зілля.html</loc></url>
 <url><loc>https://proridne.org/Українська міфологія/Ігрища.html</loc></url>
 <url><loc>https://proridne.org/Українська міфологія/Аїр.html</loc></url>
@@ -6187,9 +6179,9 @@
 <url><loc>https://proridne.org/Українська міфологія/Ястер.html</loc></url>
 <url><loc>https://proridne.org/Українська міфологія/Ятробог.html</loc></url>
 <url><loc>https://proridne.org/Українська міфологія/Ячмінь.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Noel L. Nisbet ☼ Cossack fairy tales/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Іван Березовський ☼ Казки про тварин/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Noel L. Nisbet ☼ Cossack fairy tales/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Іван Березовський ☼ Казки про тварин/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/1.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/2.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/3.html</loc></url>
@@ -6197,7 +6189,7 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/5.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/6.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/7.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Іван Котляревський ☼ Енеїда/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/1.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/10.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/2.html</loc></url>
@@ -6208,7 +6200,7 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/7.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/8.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/9.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Абу-Касимові капці/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/0-1.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/0-2.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/0-3.html</loc></url>
@@ -6224,8 +6216,8 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/7.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/8.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/9.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Іван Франко ☼ Лис Микита/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Ізоморфізм фольклорних жанрів.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Анекдот і комічне.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Анекдот і народна сміхова культура.html</loc></url>
@@ -6264,8 +6256,8 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Текст.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Типи веселих оповідачів.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/Фольклорний анекдот.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Міфи та легенди давньої України/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Міфи та легенди давньої України/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Ангел Золоті Власи.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Апокаліпсис України.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Відлуння біди.html</loc></url>
@@ -6298,12 +6290,12 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Шабаш Сатани.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Шукаю пракоренів своєї душі.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/Язичник.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Український гороскоп/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Валерій Шевчук ☼ Українські билини/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Василь Милорадович ☼ Українська відьма/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Василь Товстий ☼ Легенди та міфи України/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Українські народні казки/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Валерій Войтович ☼ Український гороскоп/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Валерій Шевчук ☼ Українські билини/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Василь Милорадович ☼ Українська відьма/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Василь Товстий ☼ Легенди та міфи України/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Українські народні казки/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Іван Корзан.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Білочка.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Бешкетний друг Яко.html</loc></url>
@@ -6349,7 +6341,7 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Чорний ворон і стая.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Шимпанзюка.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/Щаслива картоплинка.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Анатомічна символіка.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Астральна символіка.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Водяна символіка.html</loc></url>
@@ -6363,9 +6355,9 @@
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Тваринна символіка.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Українські замовляння.html</loc></url>
 <url><loc>https://proridne.org/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/Християнські елементи в замовляннях.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Петро Лінтур ☼ Зачаровані казкою/index.html</loc></url>
-<url><loc>https://proridne.org/Український фольклор Книги/Сергій Плачинда ☼ Словник давньоукраїнської міфології/index.html</loc></url>
-<url><loc>https://proridne.org/Украинские народные легенды/index.html</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Петро Лінтур ☼ Зачаровані казкою/</loc></url>
+<url><loc>https://proridne.org/Український фольклор Книги/Сергій Плачинда ☼ Словник давньоукраїнської міфології/</loc></url>
+<url><loc>https://proridne.org/Украинские народные легенды/</loc></url>
 <url><loc>https://proridne.org/Украинские народные легенды/Днепр и Десна.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные легенды/Днепровские пороги.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные легенды/Довбуш — мститель за мирскую неправду.html</loc></url>
@@ -6396,7 +6388,7 @@
 <url><loc>https://proridne.org/Украинские народные легенды/Семен Палий.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные легенды/Сказка про Семена Палия.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные легенды/Топорик Довбуша.html</loc></url>
-<url><loc>https://proridne.org/Украинские народные сказки/index.html</loc></url>
+<url><loc>https://proridne.org/Украинские народные сказки/</loc></url>
 <url><loc>https://proridne.org/Украинские народные сказки/Ёж и заяц.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные сказки/А продай, бабуся, бычка.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные сказки/Бедняк и смерть.html</loc></url>
@@ -6615,19 +6607,14 @@
 <url><loc>https://proridne.org/Украинские народные сказки/Языкатая Хвеська.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные сказки/Яйцо-райцо.html</loc></url>
 <url><loc>https://proridne.org/Украинские народные сказки/Ястреб в войтах.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Бойківщини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Буковини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Гуцульщини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Закарпаття/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Кіровоградщини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Наддніпрянщини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Поділля/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Покуття/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Полтавщини/index.html</loc></url>
-<url><loc>https://proridne.org/Фольклор Чернігівщини/index.html</loc></url>
-
-
-
-
-
+<url><loc>https://proridne.org/Фольклор Бойківщини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Буковини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Гуцульщини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Закарпаття/</loc></url>
+<url><loc>https://proridne.org/Фольклор Кіровоградщини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Наддніпрянщини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Поділля/</loc></url>
+<url><loc>https://proridne.org/Фольклор Покуття/</loc></url>
+<url><loc>https://proridne.org/Фольклор Полтавщини/</loc></url>
+<url><loc>https://proridne.org/Фольклор Чернігівщини/</loc></url>
 </urlset>

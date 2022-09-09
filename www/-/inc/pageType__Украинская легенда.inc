@@ -25,5 +25,6 @@
 
 <body data-page-type="Украинская легенда">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Украинские народные легенды/" title="Легенды Украины">Украинские легенды</a></div>

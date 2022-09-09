@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Іван Березовський ☼ Казки про тварин">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/" title="Український фольклор в книгах">Книги</a></div>

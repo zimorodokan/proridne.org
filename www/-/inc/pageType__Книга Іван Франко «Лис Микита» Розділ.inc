@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Іван Франко «Лис Микита» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Іван Франко ☼ Лис Микита/" title="Іван Франко «Лис Микита»">Іван Франко ☼ Лис Микита</a></div>

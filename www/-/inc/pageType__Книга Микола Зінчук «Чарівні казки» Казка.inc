@@ -25,5 +25,6 @@
 
 <body data-page-type="Книга Микола Зінчук «Чарівні казки» Казка">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Микола Зінчук ☼ Чарівні казки/" title="Микола Зінчук «Чарівні казки»">Чарівні казки</a></div>

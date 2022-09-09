@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Ірина Кімакович «Фольклорний анекдот як жанр» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Ірина Кімакович ☼ Фольклорний анекдот як жанр/" title="Ірина Кімакович «Фольклорний анекдот як жанр»">Ірина Кімакович ☼ Фольклорний анекдот як жанр</a></div>

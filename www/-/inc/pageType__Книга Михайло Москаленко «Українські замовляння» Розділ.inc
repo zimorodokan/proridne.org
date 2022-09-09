@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Михайло Москаленко «Українські замовляння» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Михайло Москаленко ☼ Українські замовляння/" title="Михайло Москаленко «Українські замовляння»">Михайло Москаленко ☼ Українські замовляння</a></div>

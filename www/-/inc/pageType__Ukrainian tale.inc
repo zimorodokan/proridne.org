@@ -25,5 +25,6 @@
 
 <body data-page-type="Ukrainian tale">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Ukrainian folk tales/" title="Folk Tales of Ukraine">Ukrainian folk tales</a></div>

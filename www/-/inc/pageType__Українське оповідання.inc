@@ -25,5 +25,6 @@
 
 <body data-page-type="Українське оповідання">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Українські народні оповідання/" title="Оповідання України">Українські оповідання</a></div>

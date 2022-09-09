@@ -31,5 +31,6 @@
 
 <body data-page-type="Книга Валерій Войтович «Молитва до Дажбога» Розділ">
 	<!--#include virtual="/-/inc/general__body_header.inc" -->
-	<main>
+	<main tabindex="-1">
+	<!--#include virtual="/-/inc/myInfo.inc" -->
 		<div class="linkToParent"><a href="/Український фольклор Книги/Валерій Войтович ☼ Молитва до Дажбога/" title="Валерій Войтович «Молитва до Дажбога»">Валерій Войтович ☼ Молитва до Дажбога</a></div>
